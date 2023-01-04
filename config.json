@@ -3,7 +3,7 @@
         "worker-id": "Docker"
     },
     "http": {
-        "enabled": true,
+        "enabled": false,
         "host": "0.0.0.0",
         "port": 9901,
         "access-token": "xmrig.Acul.747",
