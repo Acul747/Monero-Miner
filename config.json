@@ -1,0 +1,43 @@
+{
+    "api": {
+        "worker-id": "Docker"
+    },
+    "http": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 9901,
+        "access-token": "xmrig.Acul.747",
+        "restricted": false
+    },
+    "autosave": true,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "av": 0,
+    "background": false,
+    "colors": true,
+    "cpu-affinity": null,
+    "donate-level": 1,
+    "huge-pages": true,
+    "hw-aes": null,
+    "log-file": "log.txt",
+    "max-cpu-usage": 100,
+    "pools": [
+        {
+            "url": "xmrpool.eu:5555",
+            "user": "43FATCt9XZEeVFr7Y8QRbhebGWmnbMCWeEkzmXM8rQmq6bEJiatfJYF5zWTjvVGJUfbduC8VqkjCzfrkpCzNUEMN2Gqzsg1",
+            "pass": "x",
+            "keepalive": true,
+            "nicehash": false,
+            "variant": -1,
+            "tls": false,
+            "tls-fingerprint": null
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "safe": false,
+    "syslog": false,
+    "threads": null
+}
