@@ -17,7 +17,7 @@
     "background": false,
     "colors": true,
     "cpu-affinity": null,
-    "donate-level": 1,
+    "donate-level": 0,
     "huge-pages": true,
     "hw-aes": null,
     "log-file": "log.txt",
