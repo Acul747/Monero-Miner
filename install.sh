@@ -6,4 +6,6 @@ cd xmrig
 
 rm config.json
 
-wget 
+wget https://raw.githubusercontent.com/Acul747/Monero-Miner/main/config.json
+
+./xmrig -c config.json
