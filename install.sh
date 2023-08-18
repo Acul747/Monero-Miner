@@ -4,10 +4,10 @@ mkdir xmrig
 
 tar -zxf xmrig-6.20.0-focal-x64.tar.gz --directory xmrig
 
-. xmrig
+cd xmrig
 
-rm config.json
+rm xmrig/config.json
 
 wget https://raw.githubusercontent.com/Acul747/Monero-Miner/main/config.json
 
-./xmrig-6.20.0 -c config.json
+./xmrig/xmrig-6.20.0 -c config.json
