@@ -2,6 +2,8 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-focal
 
 tar -zxf xmrig-6.20.0-focal-x64.tar.gz
 
+rm xmrig-6.20.0-focal-x64.tar.gz
+
 cd xmrig-6.20.0
 
 rm /root/xmrig-6.20.0/config.json
