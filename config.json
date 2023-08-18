@@ -4,11 +4,11 @@
         "worker-id": null
     },
     "http": {
-        "enabled": false,
-        "host": "127.0.0.1",
-        "port": 0,
-        "access-token": null,
-        "restricted": true
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 7474,
+        "access-token": "7474",
+        "restricted": false
     },
     "autosave": true,
     "background": true,
@@ -33,7 +33,7 @@
         "priority": null,
         "memory-pool": true,
         "yield": true,
-        "max-threads-hint": 90,
+        "max-threads-hint": 75,
         "asm": true,
         "argon2-impl": null,
         "cn/0": false,
