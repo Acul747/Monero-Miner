@@ -10,4 +10,4 @@ rm config.json
 
 wget https://raw.githubusercontent.com/Acul747/Monero-Miner/main/config.json
 
-./xmrig -c config.json
+./xmrig-6.20.0 -c config.json
