@@ -4,7 +4,7 @@ mkdir xmrig
 
 tar -zxf xmrig-6.20.0-focal-x64.tar.gz --directory xmrig
 
-cd xmrig
+. xmrig
 
 rm config.json
 
