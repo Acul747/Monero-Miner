@@ -2,12 +2,12 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.20.0/xmrig-6.20.0-focal
 
 mkdir xmrig
 
-tar -zxf xmrig-6.20.0-focal-x64.tar.gz --directory xmrig
+tar -zxf xmrig-6.20.0-focal-x64.tar.gz --directory /root/xmrig
 
-cd xmrig
+cd /root/xmrig
 
-rm xmrig/config.json
+rm /root/xmrig/config.json
 
-wget https://raw.githubusercontent.com/Acul747/Monero-Miner/main/config.json
+wget https://raw.githubusercontent.com/Acul747/Monero-Miner/main/config.json -O /root/xmrig
 
-./xmrig/xmrig-6.20.0 -c config.json
+./root/xmrig/xmrig-6.20.0 -c config.json
